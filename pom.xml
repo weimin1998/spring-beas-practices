@@ -11,5 +11,6 @@
         <module>springmvc-encrypt-decrypt</module>
         <module>springmvc-flashmap-demo</module>
         <module>springboot-freemarker-demo</module>
+        <module>springmvc-requestContextHolder-localeContextHolder</module>
     </modules>
 </project>
