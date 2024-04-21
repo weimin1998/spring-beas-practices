@@ -1,0 +1,5 @@
+> CommandLineRunner和ApplicationRunner的作用是相同的，都是在服务启动之后其run()方法会被自动地调用。不同之处在于：<br>
+> 1.CommandLineRunner的run()方法接收String数组作为参数，即是最原始的参数，没有做任何处理；而ApplicationRunner接口的run()方法接收ApplicationArguments对象作为参数，是对原始参数做了进一步的封装。<br>
+> 2.CommandLineRunner适用于执行与命令行相关的逻辑，例如数据初始化、文件生成等。ApplicationRunner适用于执行与Spring容器相关的逻辑，例如初始化数据源、注册监听器等。<br>
+> 3.CommandLineRunner的run方法接收一个String数组，而ApplicationRunner的run方法接收一个ApplicationArguments对象，它不仅包含了命令行传入的参数，还包含了其他的应用程序参数。
+> ApplicationRunner会封装命令行参数，可以很方便地获取到命令行参数和参数值。

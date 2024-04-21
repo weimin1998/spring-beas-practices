@@ -13,5 +13,6 @@
         <module>springboot-freemarker-demo</module>
         <module>springmvc-requestContextHolder-localeContextHolder</module>
         <module>springboot_mail</module>
+        <module>springboot-runner</module>
     </modules>
 </project>
