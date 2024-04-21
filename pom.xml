@@ -16,5 +16,6 @@
         <module>springboot-runner</module>
         <module>springboot-scheduled</module>
         <module>springboot-configuration-properties</module>
+        <module>springboot-jdbcTemplate</module>
     </modules>
 </project>
