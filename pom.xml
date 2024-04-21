@@ -14,5 +14,6 @@
         <module>springmvc-requestContextHolder-localeContextHolder</module>
         <module>springboot_mail</module>
         <module>springboot-runner</module>
+        <module>springboot-scheduled</module>
     </modules>
 </project>
