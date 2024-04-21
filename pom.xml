@@ -17,5 +17,6 @@
         <module>springboot-scheduled</module>
         <module>springboot-configuration-properties</module>
         <module>springboot-jdbcTemplate</module>
+        <module>springboot-jdbcTemplate-multiDataSource</module>
     </modules>
 </project>
