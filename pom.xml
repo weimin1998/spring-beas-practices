@@ -15,5 +15,6 @@
         <module>springboot_mail</module>
         <module>springboot-runner</module>
         <module>springboot-scheduled</module>
+        <module>springboot-configuration-properties</module>
     </modules>
 </project>
