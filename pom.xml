@@ -18,5 +18,6 @@
         <module>springboot-configuration-properties</module>
         <module>springboot-jdbcTemplate</module>
         <module>springboot-jdbcTemplate-multiDataSource</module>
+        <module>springboot-log</module>
     </modules>
 </project>
