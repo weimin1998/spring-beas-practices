@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<h1>hello word!!!</h1>
+<p>this is a html page</p>
+
+<div id="app"></div>
+<input type="button" onclick="btnClick()" value="get_button">
+<input type="button" onclick="btnClick2()" value="post_button">
+
+<script>
+    function btnClick() {
+        $.get('http://localhost:8080/hello', function (msg) {
+            $("#app").html(msg);
+        });
+    }
+
+    function btnClick2() {
+        $.post('http://localhost:8080/hello', function (msg) {
+            $("#app").html(msg);
+        });
+    }
+</script>
+</body>
+</html>

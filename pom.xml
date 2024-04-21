@@ -19,5 +19,7 @@
         <module>springboot-jdbcTemplate</module>
         <module>springboot-jdbcTemplate-multiDataSource</module>
         <module>springboot-log</module>
+        <module>springmvc-parent-context</module>
+        <module>springboot-cors</module>
     </modules>
 </project>
