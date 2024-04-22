@@ -22,5 +22,6 @@
         <module>springmvc-parent-context</module>
         <module>springboot-cors</module>
         <module>spring-ControllerAdvice</module>
+        <module>springmvc-sessionAttribute</module>
     </modules>
 </project>
