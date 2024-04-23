@@ -23,5 +23,6 @@
         <module>springboot-cors</module>
         <module>spring-ControllerAdvice</module>
         <module>springmvc-sessionAttribute</module>
+        <module>spring-request-response-wrapper</module>
     </modules>
 </project>
